@@ -1,5 +1,5 @@
 {{-- Hidden phone input --}}
-<input
+<x-input
   type="hidden"
   {{ $attributes->wire('model') }}
   id="{{ $id }}"
